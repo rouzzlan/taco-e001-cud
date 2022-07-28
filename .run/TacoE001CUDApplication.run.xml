@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TacoE001CUDApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="ACTIVE_PROFILES" />
+    <module name="taco-e001-R" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.falcontech.tacoe001cud.TacoE001CUDApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.falcontech.tacoe001cud.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

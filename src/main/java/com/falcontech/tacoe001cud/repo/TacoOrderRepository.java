@@ -1,6 +1,6 @@
-package com.falcontech.tacoe001r.repo;
+package com.falcontech.tacoe001cud.repo;
 
-import com.falcontech.tacoe001r.model.TacoOrder;
+import com.falcontech.tacoe001cud.model.TacoOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

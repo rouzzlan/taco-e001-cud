@@ -1,10 +1,4 @@
 ###
-GET http://localhost:8080/v1/ingredients/all
-
-###
-GET http://localhost:8080/v1/ingredients/FLTO
-
-###
 POST http://localhost:8080/v1/ingredients/add
 Content-Type: application/json
 

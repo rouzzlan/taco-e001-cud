@@ -1,6 +1,6 @@
-package com.falcontech.tacoe001r.repo;
+package com.falcontech.tacoe001cud.repo;
 
-import com.falcontech.tacoe001r.model.Ingredient;
+import com.falcontech.tacoe001cud.model.Ingredient;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,10 +1,8 @@
-package com.falcontech.tacoe001r.v1;
+package com.falcontech.tacoe001cud.v1;
 
-import com.falcontech.tacoe001r.model.Taco;
-import com.falcontech.tacoe001r.service.TacoService;
+import com.falcontech.tacoe001cud.service.TacoService;
+import com.falcontech.tacoe001cud.model.Taco;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @CrossOrigin
 @RestController
@@ -14,16 +12,6 @@ public class TacoController {
 
   public TacoController(TacoService tacoService) {
     this.tacoService = tacoService;
-  }
-
-  @GetMapping("/all")
-  public Iterable<Taco> getTacos() {
-    return tacoService.getTacos();
-  }
-
-  @GetMapping("/{id}")
-  public Optional<Taco> findById(@PathVariable Long id) {
-    return tacoService.getTacoById(id);
   }
 
   @PostMapping("/add")

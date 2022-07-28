@@ -1,11 +1,3 @@
-###
-GET http://localhost:8080/v1/tacos/all
-
-###
-GET http://localhost:8080/v1/tacos/1
-
-###
-
 POST http://localhost:8080/v1/tacos/add
 Content-Type: application/json
 

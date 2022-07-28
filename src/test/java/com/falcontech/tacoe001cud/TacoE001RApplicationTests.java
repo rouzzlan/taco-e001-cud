@@ -1,4 +1,4 @@
-package com.falcontech.tacoe001r;
+package com.falcontech.tacoe001cud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

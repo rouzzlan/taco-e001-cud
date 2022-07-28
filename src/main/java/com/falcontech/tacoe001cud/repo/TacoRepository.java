@@ -1,6 +1,6 @@
-package com.falcontech.tacoe001r.repo;
+package com.falcontech.tacoe001cud.repo;
 
-import com.falcontech.tacoe001r.model.Taco;
+import com.falcontech.tacoe001cud.model.Taco;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

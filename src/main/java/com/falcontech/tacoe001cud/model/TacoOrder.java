@@ -1,4 +1,4 @@
-package com.falcontech.tacoe001r.model;
+package com.falcontech.tacoe001cud.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

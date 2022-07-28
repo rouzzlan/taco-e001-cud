@@ -1,7 +1,7 @@
-package com.falcontech.tacoe001r.service;
+package com.falcontech.tacoe001cud.service;
 
-import com.falcontech.tacoe001r.model.Taco;
-import com.falcontech.tacoe001r.repo.TacoRepository;
+import com.falcontech.tacoe001cud.model.Taco;
+import com.falcontech.tacoe001cud.repo.TacoRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,15 +13,6 @@ public class TacoService {
 
   public TacoService(TacoRepository tacoRepository) {
     this.tacoRepository = tacoRepository;
-  }
-
-  @Transactional(readOnly = true)
-  public Iterable<Taco> getTacos() {
-    return tacoRepository.findAll();
-  }
-@Transactional(readOnly = true)
-  public Optional<Taco> getTacoById(Long id) {
-    return tacoRepository.findById(id);
   }
 
   @Transactional

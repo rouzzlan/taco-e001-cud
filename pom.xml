@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.falcontech</groupId>
-    <artifactId>taco-e001-R</artifactId>
+    <artifactId>taco-e001-CUD</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>taco-e001-R</name>
-    <description>taco-e001-R</description>
+    <name>taco-e001-CUD</name>
+    <description>taco-e001-CUD</description>
     <properties>
         <java.version>11</java.version>
     </properties>

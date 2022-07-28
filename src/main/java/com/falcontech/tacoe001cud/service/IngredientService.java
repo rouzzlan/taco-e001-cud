@@ -1,7 +1,7 @@
-package com.falcontech.tacoe001r.service;
+package com.falcontech.tacoe001cud.service;
 
-import com.falcontech.tacoe001r.model.Ingredient;
-import com.falcontech.tacoe001r.repo.IngredientRepository;
+import com.falcontech.tacoe001cud.model.Ingredient;
+import com.falcontech.tacoe001cud.repo.IngredientRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,16 +14,6 @@ public class IngredientService {
 
   public IngredientService(IngredientRepository ingredientRepository) {
     this.ingredientRepository = ingredientRepository;
-  }
-
-  @Transactional(readOnly = true)
-  public Iterable<Ingredient> getIngredients() {
-    return ingredientRepository.findAll();
-  }
-
-  @Transactional(readOnly = true)
-  public Optional<Ingredient> getIngredientById(String id) {
-    return ingredientRepository.findById(id);
   }
   @Transactional
   public Ingredient saveIngredient(Ingredient ingredient) {
