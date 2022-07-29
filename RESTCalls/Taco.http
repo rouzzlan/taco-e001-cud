@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
   "name": "TestTaco",
-  "tacoOrderId": "902",
+  "tacoOrderId": "1",
   "ingredients": [
     {
       "id": "SLSA",
@@ -24,10 +24,10 @@ PUT http://localhost:8080/v1/tacos/update
 Content-Type: application/json
 
 {
-  "id": "801",
-  "tacoOrderId": "901",
+  "id": "5",
+  "tacoOrderId": "1",
   "createdAt": "2022-06-28T13:14:09.000+00:00",
-  "name": "TestTaco",
+  "name": "TestTaco#",
   "ingredients": [
     {
       "id": "SLSA",
@@ -38,9 +38,14 @@ Content-Type: application/json
       "id": "SRCR",
       "name": "Sour Cream",
       "type": "SAUCE"
+    },
+    {
+      "id": "TMTO",
+      "name": "Diced Tomatoes",
+      "type": "VEGGIES"
     }
   ]
 }
 
 ###
-DELETE http://localhost:8080/v1/tacos/801
+DELETE http://localhost:8080/v1/tacos/5
