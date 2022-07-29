@@ -3,17 +3,17 @@ POST http://localhost:8080/v1/ingredients/add
 Content-Type: application/json
 
 {
-  "id": "#TST",
+  "id": "_TST",
   "name": "Test",
   "type": "WRAP"
 }
 ###
 
-PUT http://localhost:8080/v1/ingredients/FLTO
+PUT http://localhost:8080/v1/ingredients/_TST
 Content-Type: application/json
 
 {
-"id": "FLTO",
-"name": "Test",
-"type": "WRAP"
+"id": "_TST",
+"name": "TestMod",
+"type": "SAUCE"
 }
