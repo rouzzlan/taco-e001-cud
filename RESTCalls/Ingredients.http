@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/v1/ingredients/add
+POST http://localhost:8082/v1/ingredients/add
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 ###
 
-PUT http://localhost:8080/v1/ingredients/_TST
+PUT http://localhost:8082/v1/ingredients/_TST
 Content-Type: application/json
 
 {
