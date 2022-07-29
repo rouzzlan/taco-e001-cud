@@ -17,7 +17,7 @@ create table if not exists Taco
 (
     id            BIGINT                              NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name          varchar(50)                         not null,
-    taco_order_id bigint                              not null,
+    taco_order_id bigint,
     created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP not null
 ) ENGINE = InnoDB;
 
