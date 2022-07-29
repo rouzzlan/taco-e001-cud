@@ -6,8 +6,6 @@ import com.falcontech.tacoe001cud.repo.TacoRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
-
 @Service
 public class TacoOrderService {
   private final TacoRepository tacoRepository;
@@ -26,7 +24,7 @@ public class TacoOrderService {
   }
 
   @Transactional
-  public void deleteTacoById(Long id) {
-    tacoRepository.deleteById(id);
+  public void deleteTacoOrderById(Long id) {
+    tacoOrderRepository.deleteOrderByIdPS(id);
   }
 }

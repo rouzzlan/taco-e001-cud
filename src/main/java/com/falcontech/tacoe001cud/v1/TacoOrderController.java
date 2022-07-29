@@ -20,6 +20,6 @@ public class TacoOrderController {
   }
   @DeleteMapping("/{id}")
   public void deleteOrderById(@PathVariable Long id) {
-    tacoOrderService.deleteTacoById(id);
+    tacoOrderService.deleteTacoOrderById(id);
   }
 }
