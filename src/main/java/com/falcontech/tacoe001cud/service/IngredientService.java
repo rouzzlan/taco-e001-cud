@@ -5,9 +5,6 @@ import com.falcontech.tacoe001cud.repo.IngredientRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
-
-
 @Service
 public class IngredientService {
   private final IngredientRepository ingredientRepository;
