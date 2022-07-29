@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="TacoE001CUDApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-    <option name="ACTIVE_PROFILES" />
+    <option name="ACTIVE_PROFILES" value="dev_docker" />
     <module name="taco-e001-R" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.falcontech.tacoe001cud.TacoE001CUDApplication" />
     <extension name="coverage">
