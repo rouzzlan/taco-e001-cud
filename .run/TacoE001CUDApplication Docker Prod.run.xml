@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TacoE001CUDApplication Docker Prod" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="prod_docker" />
+    <envs>
+      <env name="TACO_APP_DB_USR" value="meadmin" />
+      <env name="TACO_APP_DB_PSWD" value="badpass" />
+      <env name="TACO_APP_DATASOURCE_URL" value="jdbc:mysql://localhost:3310/DB1" />
+    </envs>
+    <module name="taco-e001-R" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.falcontech.tacoe001cud.TacoE001CUDApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.falcontech.tacoe001cud.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
