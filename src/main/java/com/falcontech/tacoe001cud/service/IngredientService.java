@@ -16,4 +16,9 @@ public class IngredientService {
   public Ingredient saveIngredient(Ingredient ingredient) {
     return ingredientRepository.save(ingredient);
   }
+
+  @Transactional
+  public void disableIngredient(String id) {
+    ingredientRepository.disableIngredient(id);
+  }
 }

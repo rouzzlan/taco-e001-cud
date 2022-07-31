@@ -19,6 +19,9 @@ public class Ingredient {
   @Enumerated(EnumType.STRING)
   private Type type;
 
+  @Column(name = "enabled")
+  private Boolean isEnabled = true;
+
   public enum Type {
     @JsonProperty("WRAP")
     WRAP,

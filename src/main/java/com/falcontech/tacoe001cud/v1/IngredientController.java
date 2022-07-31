@@ -23,4 +23,9 @@ public class IngredientController {
   public Ingredient updateIngredient(@PathVariable String id, @RequestBody Ingredient ingredient) {
     return ingredientService.saveIngredient(ingredient);
   }
+
+  @PutMapping("/disable/{id}")
+  public void disableIngredient(@PathVariable String id) {
+    ingredientService.disableIngredient(id);
+  }
 }
