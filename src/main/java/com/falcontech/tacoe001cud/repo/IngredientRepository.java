@@ -15,4 +15,9 @@ public interface IngredientRepository extends CrudRepository<Ingredient, String>
       nativeQuery = true)
   void disableIngredient(String id);
 
+  @Modifying
+  @Query(
+      value = "UPDATE Ingredient SET enabled = 1 WHERE id = ?1",
+      nativeQuery = true)
+  void enableIngredient(String id);
 }

@@ -21,4 +21,9 @@ public class IngredientService {
   public void disableIngredient(String id) {
     ingredientRepository.disableIngredient(id);
   }
+
+  @Transactional
+  public void enableIngredient(String id) {
+    ingredientRepository.enableIngredient(id);
+  }
 }
