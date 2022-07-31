@@ -17,3 +17,7 @@ Content-Type: application/json
 "name": "TestMod",
 "type": "SAUCE"
 }
+
+###
+
+PUT http://localhost:8082/v1/ingredients/disable/_TST
