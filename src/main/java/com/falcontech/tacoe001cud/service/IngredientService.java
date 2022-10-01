@@ -26,4 +26,9 @@ public class IngredientService {
   public void enableIngredient(String id) {
     ingredientRepository.enableIngredient(id);
   }
+
+  @Transactional
+  public void deleteIngredient(String id) {
+    ingredientRepository.deleteById(id);
+  }
 }

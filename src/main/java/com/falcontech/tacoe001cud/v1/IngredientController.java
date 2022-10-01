@@ -33,4 +33,9 @@ public class IngredientController {
   public void enableIngredient(@PathVariable String id) {
     ingredientService.enableIngredient(id);
   }
+
+  @DeleteMapping("/{id}")
+  public void deleteIngredient(@PathVariable String id) {
+    ingredientService.deleteIngredient(id);
+  }
 }
