@@ -1,4 +1,4 @@
-package com.falcontech.tacoe001cud.v1;
+package com.falcontech.tacoe001cud.controller.v1;
 
 import com.falcontech.tacoe001cud.service.IngredientService;
 import com.falcontech.tacoe001cud.model.Ingredient;

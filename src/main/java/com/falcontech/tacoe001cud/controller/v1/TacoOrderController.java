@@ -1,4 +1,4 @@
-package com.falcontech.tacoe001cud.v1;
+package com.falcontech.tacoe001cud.controller.v1;
 
 import com.falcontech.tacoe001cud.security.JwtUserInfo;
 import com.falcontech.tacoe001cud.security.UserIdentifier;
